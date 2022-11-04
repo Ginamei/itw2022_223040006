@@ -1,0 +1,36 @@
+body {
+    background-color: aqua;
+    font-family: georgia;
+
+}
+
+h1 {
+    font-family: comic sans MS;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+}
+
+h4 {
+    text-align: right;
+    font-style: italic;
+}
+
+.gina {
+    color: white;
+    font-variant: small-caps;
+}
+
+.gina:hover {
+    color: red;
+}
+
+.mark:hover {
+    color: white;
+    backgroud-color: darkblue;
+}
+
+.paragraf1 {
+    text-align: center;
+    color: orange;
+}
