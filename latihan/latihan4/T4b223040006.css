@@ -32,7 +32,7 @@ body {
     sans-serif;
     background-color: seagreen;
     font-family: 'Times New Roman';
-    color: #3333333;
+    color: #333333;
 }
 
 .container {
@@ -66,25 +66,21 @@ body {
 .header a:hover {
     background-color: lightskyblue;
     color: magenta;
+    transform: translateY(-10px);
 }
 
 
 .hero {
     height: 500px;
-    background-image: url(img/mywebsite.png);
     background-position: 100px;
+    object-fit: fill;
+
 }
 
-.mywebsite img {
-    width: 800px;
-    height: 250px;
-    object-fit: cover;
+.hero img {
+    object-fit: contain;
 }
 
-.websiteku img {
-    width: 700px;
-    height: 200px;
-}
 
 .content {
     padding: 20px;
@@ -112,7 +108,8 @@ body {
 
 .footer {
     background-color: slategray;
-    padding: 10px;
+    padding-bottom: 30px;
+
 }
 
 .footer .copy {
